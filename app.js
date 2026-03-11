@@ -6,7 +6,7 @@ var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 const { format } = require("date-fns");
 
-// 1st party dependencie
+// 1st party dependencies
 var configData = require("./config/connection");
 var indexRouter = require("./routes/index");
 
